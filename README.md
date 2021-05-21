@@ -10,8 +10,8 @@ Camera.py satisfies the requirement of Level2 of the challenge.
 Only requirement TensorFlow version 2.4.0 and Keras 2.4.3 for compiling the code and training the model.
 
 
-Model Used- 1.VggFace which runs on top of resnet50 is used for training and making the machine learn to detect the faces.
-            2.Used MTCNN to extract the face features during training and also in level 2.
+Model Used- 1.Used MTCNN for face detection in images as well as thorough webcam feed.
+            2.Used VGGFace model built on top of resnet50 and used it to extract features from detected faces.
             
 Training and Validation accuracy generated during the training, I have uploaded the screenshot of log report of training.
 Model achieved the training accuracy of 91.42% after 20 epochs.
